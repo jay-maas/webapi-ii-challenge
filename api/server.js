@@ -13,6 +13,6 @@ server.get('/', (req, res) => {
     `)
 })
 
-server.use('/api/blogs', blogsRouter)
+server.use('/api/posts', blogsRouter)
 
 module.exports = server
